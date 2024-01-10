@@ -54,3 +54,83 @@
     padding-left: 0.75rem;
     border-radius: 2rem 0 0 2rem;
 }
+
+.slide:nth-child(1) {
+    background-color: #49b293;
+}
+
+.slide:nth-child(2) {
+    background-color: #b03532;
+}
+
+.slide:nth-child(3) {
+    background-color: #6a478f;
+    margin: 0;
+}
+
+.slide:nth-child(4) {
+    background-color: #da6f2b;
+    margin: 0;
+}
+
+.btn {
+    align-items: center;
+    appearance: none;
+    background-color: white;
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 10px;
+    border: 1px solid #3EB2FD;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #3EB2FD;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    margin: 10px;
+    width: 100px;
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-position: -20px -20px;
+}
+
+.btn:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.signup {
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    color: white;
+}
+
+.signup:active,
+.btn:focus {
+    outline: none;
+}
+
+.signup:hover {
+    background-position: -20px -20px;
+}
+
+.signup:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
